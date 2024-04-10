@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Product card</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240201162438">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div id="callback" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">Close</button>
+					<div class="popup__text">
+						Text
+					</div>
+				</div>
+			</div>
+		</div>
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<nav class="top-header__menu menu-top-header">
+						<ul data-da=".menu__body, 991.98" class="menu-top-header__list">
+							<li class="menu-top-header__item menu-top-header__item_catalog"><a href="" class="menu-top-header__link menu-top-header__link_catalog _icon-arrow-bottom">Catalof of Goods</a></li>
+							<li class="menu-top-header__item"><a href="" class="menu-top-header__link">About Us</a></li>
+							<li class="menu-top-header__item"><a href="" class="menu-top-header__link">Payment and Delivery</a></li>
+							<li class="menu-top-header__item"><a href="" class="menu-top-header__link">News</a></li>
+							<li class="menu-top-header__item"><a href="" class="menu-top-header__link">Contacts</a></li>
+						</ul>
+					</nav>
+					<a href="" class="top-header__user _icon-user"><span>Personal Account</span></a>
+					<nav hidden class="menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<div class="menu__body">
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="header__body body-header">
+				<div class="body-header__container">
+					<a href="" class="body-header__logo"></a>
+					<div data-da=".catalog-header__container, 479.98" class="body-header__search">
+						<form action="#" class="search-header">
+							<button type="submit" class="search-header__button _icon-search"></button>
+							<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Search" class="search-header__input">
+						</form>
+					</div>
+					<div class="body-header__actions actions-header">
+						<a href="" class="actions-header__location _icon-location"><span>Kyiv</span></a>
+						<div data-da=".top-header__container, 991.98, first" class="actions-header__phones phones-header">
+							<div data-spollers class="phones-header__items">
+								<details class="phones-header__item">
+									<summary class="phones-header__arrow"><a href="tel:80441112233" class="phones-header__phone"> <span>8-044-111-22-33</span></a><span class="_icon-arrow-bottom"></span></summary>
+									<ul class="phones-header__list">
+										<li><a href="tel:80441112234" class="phones-header__phone">8-044-111-22-34</a></li>
+										<li><a href="tel:80441112235" class="phones-header__phone">8-044-111-22-35</a></li>
+										<li><a href="tel:80441112233" class="phones-header__phone">8-044-111-22-36</a></li>
+									</ul>
+								</details>
+							</div>
+							<button type="button" data-popup="#callback" class="phones-header__callback">Callback</button>
+						</div>
+						<a href="" data-da=".top-header__container, 991.98, 2" class="actions-header__favorite _icon-favorite"></a>
+						<a href="" data-da=".top-header__container, 991.98, 2" class="actions-header__cart cart-header">
+							<div class="cart-header__icon _icon-cart"><span>0</span></div>
+							<div class="cart-header__body">
+								<div class="cart-header__summ">0 USD</div>
+								<div class="cart-header__link">To Order</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__catalog catalog-header">
+				<div class="catalog-header__container">
+					<nav class="catalog-header__menu menu-catalog">
+						<button type="button" class="menu-catalog__back _icon-back">Back</button>
+						<ul class="menu-catalog__list">
+							<li class="menu-catalog__item"><button data-parent="1" class="menu-catalog__link">Catalog of Knives</button></li>
+							<li class="menu-catalog__item"><button data-parent="2" class="menu-catalog__link">Bladed Weapons</button></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Souvenirs</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Tactical Flashlights</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Related Goods</a></li>
+						</ul>
+						<div class="menu-catalog__sub-menu sub-menu-catalog">
+							<button type="button" class="sub-menu-catalog__back _icon-back">Back</button>
+							<div class="sub-menu-catalog__container">
+								<div hidden data-submenu="1" class="sub-menu-catalog__block">
+									<div class="sub-menu-catalog__category">
+										<a href="" class="sub-menu-catalog__link-category">Category of Knives</a>
+									</div>
+									<div class="sub-menu-catalog__category">
+										<a href="" class="sub-menu-catalog__link-category">Production of Knives</a>
+									</div>
+									<div class="sub-menu-catalog__category">
+										<a href="" class="sub-menu-catalog__link-category">Knives by Steel Type</a>
+									</div>
+									<div class="sub-menu-catalog__category">
+										<a href="" class="sub-menu-catalog__link-category">Sharpening and Polishing</a>
+									</div>
+									<div class="sub-menu-catalog__category">
+										<a href="" class="sub-menu-catalog__link-category">Our Workshop</a>
+									</div>
+									<ul class="sub-menu-catalog__list">
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Carving Knives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Tourist Knives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Hounting Knives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Tactical Knives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Throuing Knives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Machete</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Kitchen Knives</a></li>
+									</ul>
+									<ul class="sub-menu-catalog__list">
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">VSC Knives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Chicago FSA</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Alvares Co</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Two Axels</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Hounting & Travaling</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Kruger</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">ARMORY</a></li>
+									</ul>
+									<ul class="sub-menu-catalog__list">
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">CPM S110V</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">CPM S90V</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">M390</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">ZDP-189</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Elmax</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">CPM-20CV</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">CTS-XHP</a></li>
+									</ul>
+									<ul class="sub-menu-catalog__list">
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Natural Stones</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Synthetic Stones</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Japanese Waterstones</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Diamond Plate</a></li>
+									</ul>
+									<ul class="sub-menu-catalog__list">
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Knife Blades</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Blanks for Kives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Foundry</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Handle Materials</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Handle Care</a></li>
+									</ul>
+									<div class="sub-menu-catalog__footer">
+										<a href="" class="sub-menu-catalog__all">See All</a>
+									</div>
+									<div class="sub-menu-catalog__footer">
+										<a href="" class="sub-menu-catalog__all">See All</a>
+									</div>
+									<div class="sub-menu-catalog__footer">
+										<a href="" class="sub-menu-catalog__all">See All</a>
+									</div>
+									<div class="sub-menu-catalog__footer">
+										<a href="" class="sub-menu-catalog__all">See All</a>
+									</div>
+									<div class="sub-menu-catalog__footer">
+										<a href="" class="sub-menu-catalog__all">See All</a>
+									</div>
+								</div>
+								<div hidden data-submenu="2" class="sub-menu-catalog__block">
+									<div class="sub-menu-catalog__category">
+										<a href="" class="sub-menu-catalog__link-category">Category of Knives</a>
+									</div>
+									<div class="sub-menu-catalog__category">
+										<a href="" class="sub-menu-catalog__link-category">Production of Knives</a>
+									</div>
+									<ul class="sub-menu-catalog__list">
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Carving Knives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Tourist Knives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Hounting Knives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Tactical Knives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Throuing Knives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Machete</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Kitchen Knives</a></li>
+									</ul>
+									<ul class="sub-menu-catalog__list">
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">VSC Knives</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Chicago FSA</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Alvares Co</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Two Axels</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Hounting & Travaling</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Kruger</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">ARMORY</a></li>
+									</ul>
+									<div class="sub-menu-catalog__footer">
+										<a href="" class="sub-menu-catalog__all">See All</a>
+									</div>
+									<div class="sub-menu-catalog__footer">
+										<a href="" class="sub-menu-catalog__all">See All</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page page__inner">
+			<div class="page__header">
+				<div class="page__container">
+					<nav class="page__breadcrumbs breadcrumbs breadcrumbs-product">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a href="" class="breadcrumbs__link">Main Page</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<a href="" class="breadcrumbs__link">Carving Knives</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<span class="breadcrumbs__current">Fox Knife</span>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="product">
+				<div class="product__container">
+					<div class="product__main main-product">
+						<div class="main-product__images images-product">
+
+							<div class="images-product__slider swiper">
+								<div class="images-product__wrapper swiper-wrapper">
+									<div class="images-product__slide-ibg swiper-slide">
+										<picture><source srcset="img/phoduct/knife1.webp" type="image/webp"><img src="img/phoduct/knife1.jpg" alt="Image"></picture>
+									</div>
+									<div class="images-product__slide-ibg swiper-slide">
+										<picture><source srcset="img/phoduct/knife11.webp" type="image/webp"><img src="img/phoduct/knife11.jpg" alt="Image"></picture>
+									</div>
+									<div class="images-product__slide-ibg swiper-slide">
+										<picture><source srcset="img/phoduct/knife12.webp" type="image/webp"><img src="img/phoduct/knife12.jpg" alt="Image"></picture>
+									</div>
+									<div class="images-product__slide-ibg swiper-slide">
+										<picture><source srcset="img/phoduct/knife13.webp" type="image/webp"><img src="img/phoduct/knife13.jpg" alt="Image"></picture>
+									</div>
+									<div class="images-product__slide-ibg swiper-slide">
+										<picture><source srcset="img/phoduct/knife14.webp" type="image/webp"><img src="img/phoduct/knife14.jpg" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+
+							<div class="images-product__thumbs thumbs-images">
+								<div class="thumbs-images__wrapper swiper-wrapper">
+									<div class="thumbs-images__slide-ibg swiper-slide">
+										<picture><source srcset="img/phoduct/knife1.webp" type="image/webp"><img src="img/phoduct/knife1.jpg" alt="Image"></picture>
+									</div>
+									<div class="thumbs-images__slide-ibg swiper-slide">
+										<picture><source srcset="img/phoduct/knife11.webp" type="image/webp"><img src="img/phoduct/knife11.jpg" alt="Image"></picture>
+									</div>
+									<div class="thumbs-images__slide-ibg swiper-slide">
+										<picture><source srcset="img/phoduct/knife12.webp" type="image/webp"><img src="img/phoduct/knife12.jpg" alt="Image"></picture>
+									</div>
+									<div class="thumbs-images__slide-ibg swiper-slide">
+										<picture><source srcset="img/phoduct/knife13.webp" type="image/webp"><img src="img/phoduct/knife13.jpg" alt="Image"></picture>
+									</div>
+									<div class="thumbs-images__slide-ibg swiper-slide">
+										<picture><source srcset="img/phoduct/knife14.webp" type="image/webp"><img src="img/phoduct/knife14.jpg" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="main-product__body body-product">
+							<div class="body-product__header header-product">
+								<div class="header-product__line">
+									<h1 class="header-product__title">Fox Knife</h1>
+									<a href="" class="header-product__link _icon-compare"></a>
+									<a href="" class="header-product__link _icon-favorite"></a>
+								</div>
+								<div class="header-product__rating rating">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__value">4.4</div>
+								</div>
+							</div>
+							<div class="body-product__table table-product">
+								<div class="table-product__label">Article:</div>
+								<div class="table-product__value">AF0101010</div>
+								<div class="table-product__label">Trademark:</div>
+								<div class="table-product__value">Kruger</div>
+								<div class="table-product__label">Series:</div>
+								<div class="table-product__value">Hunting</div>
+								<div class="table-product__label">Reward Points:</div>
+								<div class="table-product__value">5</div>
+							</div>
+							<div class="body-product__options options-ptroduct">
+								<div class="options-ptroduct__item">
+									<div class="options-ptroduct__label">Steel:</div>
+									<div class="options-ptroduct__value">
+										<select name="form[]" data-class-modif="form">
+											<option value="1" selected>CPM S110V</option>
+											<option value="2">CPM S90V</option>
+											<option value="3">M390</option>
+											<option value="4">ZDP-189</option>
+											<option value="5">Elmax</option>
+											<option value="6">CPM-20CV</option>
+											<option value="7">CTS-XHP</option>
+										</select>
+									</div>
+								</div>
+								<div class="options-ptroduct__item">
+									<div class="options-ptroduct__label">Handle:</div>
+									<div class="options-ptroduct__value">
+										<select name="form[]" data-class-modif="form">
+											<option value="1" selected>Oak</option>
+											<option value="2">Hornbeam</option>
+											<option value="3">Chesnut</option>
+											<option value="4">Bubinga</option>
+											<option value="5">Chery</option>
+										</select>
+									</div>
+								</div>
+								<div class="options-ptroduct__item">
+									<div class="options-ptroduct__label">Guard:</div>
+									<div class="options-ptroduct__value">
+										<select name="form[]" data-class-modif="form">
+											<option value="1" selected>Aluminum</option>
+											<option value="2">Brass</option>
+											<option value="3">Molding</option>
+											<option value="4">Steel</option>
+											<option value="5">Combine</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="body-product__actions actions-product">
+								<div class="actions-product__price"><span>$ </span><span class="actions-product__price-value">225</span></div>
+								<div class="actions-product__row">
+									<div data-quantity class="actions-product__quantity quantity">
+										<button data-quantity-minus type="button" class="quantity__button quantity__button--minus"></button>
+										<div class="quantity__input">
+											<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+										</div>
+										<button data-quantity-plus type="button" class="quantity__button quantity__button--plus"></button>
+									</div>
+									<div class="actions-product__buttons">
+										<a href="" class="actions-product__cart button"><span class="_icon-cart">Cart</span></a>
+										<a href="" class="actions-product__cart button button_black">To Buy in 1 Click</span></a>
+									</div>
+
+								</div>
+
+							</div>
+
+
+						</div>
+					</div>
+					<div class="product__info info-product">
+						<div data-tabs class="product__info-tabs tabs">
+							<nav data-tabs-titles class="tabs__navigation">
+								<button type="button" class="tabs__title _tab-active">Description</button>
+								<button type="button" class="tabs__title">Characteristic</button>
+								<button type="button" class="tabs__title">Testimonials</button>
+								<button type="button" class="tabs__title">Shipping</button>
+							</nav>
+							<div data-tabs-body class="tabs__content">
+								<div class="tabs__body">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore a aspernatur architecto ut optio.
+										Soluta, quae possimus deserunt quia nesciunt, porro distinctio, autem nostrum inventore laboriosam perspiciatis.
+										Veniam aliquid necessitatibus libero soluta totam maiores fuga modi cumque possimus.</p>
+									<p>Ipsam placeat velit dolorum minima pariatur dicta libero possimus architecto nam repellendus voluptate alias enim perferendis,
+										distinctio recusandae consectetur tempore. Magnam unde deserunt nam assumenda, corporis quibusdam.</p>
+									<p>Quae corrupti error alias minus natus omnis cumque quibusdam, ducimus assumenda veniam eos repudiandae dolorum laboriosam enim sed
+										itaque animi fuga recusandae quod atque est voluptate fugiat? Dolore repellendus temporibus accusamus rerum voluptatibus esse quis?</p>
+								</div>
+								<div class="tabs__body">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae beatae, doloribus doloremque veritatis optio tempore dicta
+										aliquid animi nemo soluta rem, modi eius sequi. Quas in nesciunt cum delectus repudiandae voluptatum commodi obcaecati omnis
+										culpa earum, iste dolorem ab magni voluptas. </p>
+									<p>Sapiente modi repellendus magnam magni dolor in odit itaque vero provident corporis,
+										animi obcaecati delectus accusamus iure temporibus eaque aut veniam sint id saepe architecto. Ea accusantium possimus optio enim
+										magnam neque fuga temporibus?</p>
+								</div>
+								<div class="tabs__body">
+									<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil cumque repudiandae adipisci labore doloremque accusantium rem excepturi,
+										laborum inventore aliquid iusto eaque iste necessitatibus quod magnam laudantium distinctio perspiciatis iure? Facilis vero maxime
+										ut molestiae error iste cum, unde non eius odio, ducimus id architecto quo necessitatibus praesentium delectus quisquam?</p>
+								</div>
+								<div class="tabs__body">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae beatae, doloribus doloremque veritatis optio tempore dicta
+										aliquid animi nemo soluta rem, modi eius sequi.</p>
+									<p>Quas in nesciunt cum delectus repudiandae voluptatum commodi obcaecati omnis culpa earum, iste dolorem ab magni voluptas.</p>
+									<p>Sapiente modi repellendus magnam magni dolor in odit itaque vero provident corporis,
+										animi obcaecati delectus accusamus iure temporibus eaque aut veniam sint id saepe architecto. Ea accusantium possimus optio enim
+										magnam neque fuga temporibus?</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product__similar similar-product">
+						<section class="page__products-slider products-slider">
+							<div class="products-slider__container">
+								<div class="products-slider__header">
+									<h2 class="products-slider__title">Similar</h2>
+								</div>
+								<div class="products-slider__slider swiper">
+									<div class="products-slider__swiper swiper-wrapper">
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div class="products-slider__dotts dotts"></div>
+								</div>
+							</div>
+						</section>
+
+					</div>
+					<div class="product__recomended recomended-product">
+						<section class="page__products-slider products-slider">
+							<div class="products-slider__container">
+								<div class="products-slider__header">
+									<h2 class="products-slider__title">Recomended</h2>
+								</div>
+								<div class="products-slider__slider swiper">
+									<div class="products-slider__swiper swiper-wrapper">
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+										<div class="products-slider__slide swiper-slide">
+											<article class="product-card">
+												<a href="" class="product-card__image">
+													<span class="product-card__item-image-ibg product-card__item-image-ibg--contain">
+														<picture><source srcset="img/product-card/image.webp" type="image/webp"><img src="img/product-card/image.jpg" alt="Image"></picture>
+													</span>
+												</a>
+												<div class="product-card__body">
+													<h4 class="product-card__title">
+														<a class="product-card__link-title">Fox Knife</a>
+													</h4>
+													<div class="product-card__info info-product-card">
+														<div class="info-product-card__size">95x18</div>
+														<div class="info-product-card__materials">oak, aluminum</div>
+													</div>
+													<div class="product-card__rating rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.6</div>
+														<div class="rating__info">10 reviews</div>
+													</div>
+													<div class="product-card__footer">
+														<div class="product-card__price">$225,00</div>
+														<a href="" class="product-card__compare _icon-compare"></a>
+														<a href="" class="product-card__favorite _icon-favorite"></a>
+													</div>
+													<button type="button" class="product-card__cart button"><span class="_icon-cart">Cart</span></button>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div class="products-slider__dotts dotts"></div>
+								</div>
+							</div>
+						</section>
+
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<section class="footer__text text-footer">
+				<div class="text-footer__container">
+					<h1 class="text-footer__title">ARMORY knife shop</h1>
+					<div class="text-footer__text">Our online store offers very high quality knives from all over the world.
+						We have knives of all types and purposes: hunting, utility, tourist, fishing, folding and throwing knives.
+						Most of the knives offered are covered by a warranty of up to 10 years - this is one of the main indicators of quality.
+						Our managers will help you decide and choose exactly what you need.
+					</div>
+				</div>
+			</section>
+			<div class="footer__container">
+				<div class="footer__body body-footer">
+					<div class="body-footer__row">
+						<div class="body-footer__item item-footer">
+							<div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+								<details class="spoller-item-footer__item">
+									<summary class="spoller-item-footer__title">Information</summary>
+									<div class="spoller-item-footer__body">
+										<nav class="menu-footer">
+											<ul class="menu-footer__list">
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">Our Shops</a>
+												</li>
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">About Steels for Kknives</a>
+												</li>
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">About Us</a>
+												</li>
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">About Steels for Kknives</a>
+												</li>
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">Terms of delivery and payment</a>
+												</li>
+												<div class="menu-footer__item">
+													<a href="" class="menu-footer__link">Privacy Policy</a>
+												</div>
+											</ul>
+										</nav>
+									</div>
+								</details>
+							</div>
+						</div>
+						<div class="body-footer__item item-footer">
+							<div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+								<details class="spoller-item-footer__item">
+									<summary class="spoller-item-footer__title">Support Service</summary>
+									<div class="spoller-item-footer__body">
+										<nav class="menu-footer">
+											<ul class="menu-footer__list">
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">Contacts</a>
+												</li>
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">Return of Goods</a>
+												</li>
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">SiteMap</a>
+												</li>
+											</ul>
+										</nav>
+									</div>
+								</details>
+							</div>
+						</div>
+						<div class="body-footer__item item-footer">
+							<div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+								<details class="spoller-item-footer__item">
+									<summary class="spoller-item-footer__title">More Information</summary>
+									<div class="spoller-item-footer__body">
+										<nav class="menu-footer">
+											<ul class="menu-footer__list">
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">Gift Certificates</a>
+												</li>
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">Partners</a>
+												</li>
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">Discounted Goods</a>
+												</li>
+											</ul>
+										</nav>
+									</div>
+								</details>
+							</div>
+						</div>
+						<div class="body-footer__item item-footer">
+							<div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+								<details class="spoller-item-footer__item">
+									<summary class="spoller-item-footer__title">Personal Account</summary>
+									<div class="spoller-item-footer__body">
+										<nav class="menu-footer">
+											<ul class="menu-footer__list">
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">General Information</a>
+												</li>
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">Order History</a>
+												</li>
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">Favorite</a>
+												</li>
+												<li class="menu-footer__item">
+													<a href="" class="menu-footer__link">Newsletter</a>
+												</li>
+											</ul>
+										</nav>
+									</div>
+								</details>
+							</div>
+						</div>
+					</div>
+					<div class="body-footer__row">
+						<div class="body-footer__item item-footer">
+							<div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+								<details class="spoller-item-footer__item">
+									<summary class="spoller-item-footer__title">Contacs</summary>
+									<div class="spoller-item-footer__body">
+										<nav class="menu-footer">
+											<ul class="menu-footer__list">
+												<li class="menu-footer__item">
+													<a href="tel:+380441231234" class="menu-footer__link _icon-footer-phone">+38 044 123 12 34</a>
+												</li>
+												<li class="menu-footer__item _icon-footer-clock">
+													<div>
+														<p>Monday-Friday</p>
+														<p>09:00-18:00</p>
+													</div>
+												</li>
+												<li class="menu-footer__item _icon-footer-location">
+													<div>
+														<p>Kyiv</p>
+														<p>Khreshchatyk, 15</p>
+													</div>
+												</li>
+												<li class="menu-footer__item _icon-footer-email">
+													<a href="mailto:mainoffice@armory.net" class="menu-footer__link">mainoffice@armory.net</a>
+												</li>
+											</ul>
+										</nav>
+										<ul class="social-footer">
+											<li class="social-footer__item">
+												<a href="" class="social-footer__link">
+													<picture><source srcset="img/icons/social/facebook.webp" type="image/webp"><img src="img/icons/social/facebook.png" alt=""></picture>
+												</a>
+											</li>
+											<li class="social-footer__item">
+												<a href="" class="social-footer__link">
+													<picture><source srcset="img/icons/social/telegram.webp" type="image/webp"><img src="img/icons/social/telegram.png" alt=""></picture>
+												</a>
+											</li>
+											<li class="social-footer__item">
+												<a href="" class="social-footer__link">
+													<picture><source srcset="img/icons/social/viber.webp" type="image/webp"><img src="img/icons/social/viber.png" alt=""></picture>
+												</a>
+											</li>
+											<li class="social-footer__item">
+												<a href="" class="social-footer__link">
+													<picture><source srcset="img/icons/social/whatsapp.webp" type="image/webp"><img src="img/icons/social/whatsapp.png" alt=""></picture>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</details>
+							</div>
+						</div>
+						<div class="body-footer__item item-footer">
+							<div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+								<details class="spoller-item-footer__item">
+									<summary class="spoller-item-footer__title">Useful Links</summary>
+									<div class="spoller-item-footer__body">
+										<nav class="menu-footer">
+											<ul class="menu-footer__list">
+												<div class="menu-footer__item">
+													<a href="" class="menu-footer__link">Payment Methods</a>
+												</div>
+												<div class="menu-footer__item">
+													<a href="" class="menu-footer__link">Delivery Options</a>
+												</div>
+											</ul>
+										</nav>
+									</div>
+								</details>
+							</div>
+						</div>
+						<div class="body-footer__item item-footer">
+							<div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+								<details class="spoller-item-footer__item">
+									<summary class="spoller-item-footer__title">Guarantee</summary>
+									<div class="spoller-item-footer__body">
+										<div class="spoller-item-footer__text">
+											If you are not satisfied with the purchase in our store
+											you can return the goods within 30 days in accordance with the <a href=""> Terms of return of goods.</a>
+										</div>
+									</div>
+								</details>
+							</div>
+						</div>
+						<div class="body-footer__item item-footer">
+							<div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+								<details class="spoller-item-footer__item">
+									<summary type="button" data-spollers class="spoller-item-footer__title">Newsletter</summary>
+									<form action="#" class="spoller-item-footer__body footer-subscribe">
+										<label for="subscribe-input" class="footer-subscribe__label">Subsribe Now!</label>
+										<div class="footer-subscribe__line">
+											<input id="subscribe-input" autocomplete="off" type="text" name="form[]" data-error="Error" data-required="email" placeholder="example@gmai.com" class="footer-subscribe__input">
+											<button type="submit" class="footer-subscribe__button _icon-arrow-bottom"></button>
+										</div>
+									</form>
+									<div class="spoller-item-footer__agree footer-agree">
+										<div class="checkbox">
+											<input id="a_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="a_1" class="checkbox__label"><span class="checkbox__text">I have read the Terms and Conditions and I agree to Terms</span></label>
+										</div>
+									</div>
+								</details>
+							</div>
+						</div>
+					</div>
+					<div class="body-footer__botttom">
+						<div class="body-footer__rules">
+							When copying materials from the site, a link to the site is required!
+						</div>
+						<div class="body-footer__copy">
+							Perfect Knives <span>www.armory.net ©</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240201162438"></script>
+</body>
+
+</html>
